@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-action text-white px-6 py-3 rounded-12 font-semibold hover:bg-blue-600 transition-colors;
+  }
+  .btn-secondary {
+    @apply bg-gold text-white px-6 py-3 rounded-12 font-semibold hover:bg-yellow-600 transition-colors;
+  }
+  .card {
+    @apply bg-white p-6 rounded-16 shadow-sm border border-lines;
+  }
+}
